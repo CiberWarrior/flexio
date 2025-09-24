@@ -1,4 +1,4 @@
-# Astro files
+# Force GitHub to recognize this as an Astro project
 *.astro linguist-language=Astro
 *.astro text
 *.astro diff=astro
@@ -11,7 +11,7 @@
 *.ts linguist-language=TypeScript
 *.ts text
 
-# JavaScript files
+# JavaScript files (but don't count them for language detection)
 *.js linguist-language=JavaScript
 *.js text
 
@@ -22,3 +22,8 @@
 # CSS files
 *.css linguist-language=CSS
 *.css text
+
+# Exclude node_modules from language detection
+node_modules/** linguist-vendored
+dist/** linguist-generated
+.astro/** linguist-generated

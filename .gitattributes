@@ -1,0 +1,24 @@
+# Astro files
+*.astro linguist-language=Astro
+*.astro text
+*.astro diff=astro
+
+# Markdown files
+*.md linguist-language=Markdown
+*.md text
+
+# TypeScript files
+*.ts linguist-language=TypeScript
+*.ts text
+
+# JavaScript files
+*.js linguist-language=JavaScript
+*.js text
+
+# JSON files
+*.json linguist-language=JSON
+*.json text
+
+# CSS files
+*.css linguist-language=CSS
+*.css text
